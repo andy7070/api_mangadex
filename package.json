@@ -1,0 +1,18 @@
+{
+  "name": "manga-watcher",
+  "version": "1.0.0",
+  "description": "Auto-watcher de novos capítulos de mangá via MangaDex + Supabase",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
